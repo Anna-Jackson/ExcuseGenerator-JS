@@ -9,9 +9,9 @@ console.log('Hello Anna from the console');
 let excuseGenerator = () => {
 
     let who = ['My dog','My baby brother','Her fish','My bird'];
-    let action = ['ate','swallowed','crushed','broke'];
+    let action = ['ate','swallowed','crushed','broke','took'];
     let what = ['my homework', 'the keys', 'the car', 'my money'];
-    let when = ['before the class.','right before I came.','when I finished.','during my lunch.','while I was sleeping.'];
+    let when = ['last week.','right before I came.','when I finished.','yesterday.','while I was sleeping.'];
     
     let whoIndx = Math.floor(Math.random() * who.length);
     let actIndx = Math.floor(Math.random() * action.length);
